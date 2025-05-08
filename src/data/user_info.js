@@ -20,76 +20,40 @@ const info = {
     // ============ PROJECTS ============
     projects: [
         {
-			title: "Pseudocode to C",
-			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Flask, SpaCy",
-			github: "https://github.com/dsbalico/pseudocode-to-c",
-            link: "https://pseudocode-to-c.netlify.app/"
+			title: "247AT",
+			description: "247AT is a 24/7 trading application designed to empower users with real-time access to financial markets, cryptocurrencies, and commodities. Collaborated in the Backend logic",
+            technologies: "Nodejs, Expressjs, MongoDb, Swagger",
+            link: "https://247activetrading.vercel.app/"
 		},
 
         {
-			title: "YouShare",
-			description: "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-			technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
+			title: "Beks coding club",
+			description: "A platform for young coders to learn and grow. Built with HTML, CSS, and Javascript with firebase as a Backend as a Service(BAAS).",
+			technologies: "HTML, CSS, Javascript, Firebase",
+            link: "https://beks-coding-club.web.app/"
 		},
 
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
+			title: "Beks e-learning app",
+			description: "Beks e-learning app is an e-learning platform built to empower students and tech enthusiasts with accessible, up-to-date educational resources.",
+			technologies: "React, Tailwind",
+            link: "https://the-tech-archival-client-side.vercel.app/"
 		},
 
 		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "React, Tailwind, Firebase",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
+			title: "Nomands app",
+			description: "An online platform that allows students take examinations on modules and topics the did during a period of time. Handled the backend logics",
+			technologies: "Nodejs, Expressjs, Redis, MongoDb,Swagger",
+            link: "https://nomands.vercel.app"
 		},
-
-		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
-		},
-
-		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
-		},
-    ],
-
-    // ============ EDUCATION ============
-    education: [
-        {
-            school: "Technological University of the Philippines",
-            degree: "Bachelor of Science in Computer Science",
-            duration: "2020 - 2024",
-            image: "tup.webp"
-        },
-        {
-            school: "STI College",
-            degree: "ICT in Mobile App and Web Development",
-            duration: "2018 - 2020",
-            image: "sti.webp"
-        },
     ],
 
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Full-Stack Developer Intern",
+            position: "Junior Full-Stack Developer",
             company: "Babtech Computers",
-            duration: "Oct 2024 - Till date",
+            duration: "Sept 2024 - Till date",
             image: "babtech.jpeg",
             descriptions: [
                 "Completed an extensive training program in full-stack web development.",

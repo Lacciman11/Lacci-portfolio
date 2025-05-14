@@ -53,7 +53,7 @@ const info = {
         {
             position: "Junior Full-Stack Developer",
             company: "Babtech Computers",
-            duration: "Sept 2024 - Till date",
+            duration: "May 2024 - Till date",
             image: "babtech.jpeg",
             descriptions: [
                 "Completed an extensive training program in full-stack web development.",

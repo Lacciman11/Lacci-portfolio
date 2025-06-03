@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import user_info from "../../data/user_info.js";
 
+
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -152,6 +153,13 @@ function Contact() {
             </p>
           )}
         </form>
+      </div>
+
+      <div className="mt-12">
+      <a href="../../../public/Mycv.pdf" download="Mycv.pdf" 
+      className="w-full px-4 py-2 bg-red-800 text-white rounded-md hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:bg-red-500 dark:hover:bg-red-600">
+        Download My Resume
+      </a>      
       </div>
 
       {/* =========== LINKS =========== */}

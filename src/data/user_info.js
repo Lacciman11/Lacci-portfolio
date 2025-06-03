@@ -46,6 +46,13 @@ const info = {
 			technologies: "Nodejs, Expressjs, Redis, MongoDb,Swagger",
             link: "https://nomands.vercel.app"
 		},
+
+        {
+            title:"CL3WILSONFASHINAFRICA",
+            description: "A fashion e-commerce website that showcases the latest trends and styles in African fashion. It allows users to browse and purchase clothing items online.",
+            technologies: "React, Bootstrap, Firebase",
+            link: "https://www.cl3fwilson.com/"
+        }
     ],
 
     // ============ EXPERIENCE ============

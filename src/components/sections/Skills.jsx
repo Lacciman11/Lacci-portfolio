@@ -3,6 +3,7 @@ import { CgVercel } from "react-icons/cg";
 import { DiGithubAlt, DiMongodb } from "react-icons/di";
 import { FaDharmachakra} from "react-icons/fa";
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaNodeJs, FaReact} from "react-icons/fa6";
+import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiSwagger, SiExpress, SiPostman, SiTailwindcss, SiRedis, SiRender} from "react-icons/si";
@@ -72,6 +73,9 @@ function Skills() {
         </span>
         <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
         <SiRender  className="text-2xl" /> Render
+        </span>
+        <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        <FaBootstrap  className="text-2xl" /> Bootstrap
         </span>
       </div>
     </section>

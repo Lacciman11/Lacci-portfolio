@@ -156,7 +156,7 @@ function Contact() {
       </div>
 
       <div className="mt-12">
-      <a href="../../Mycv.pdf" download="Mycv.pdf" 
+      <a href="/Mycv.pdf" download="Mycv.pdf" 
       className="w-full px-4 py-2 bg-red-800 text-white rounded-md hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:bg-red-500 dark:hover:bg-red-600">
         Download My Resume
       </a>      

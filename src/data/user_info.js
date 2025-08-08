@@ -52,6 +52,13 @@ const info = {
             description: "A fashion e-commerce website that showcases the latest trends and styles in African fashion. It allows users to browse and purchase clothing items online.",
             technologies: "React, Bootstrap, Firebase",
             link: "https://www.cl3fwilson.com/"
+        },
+
+        {
+            title:"CRYSTAL LAND ACADEMY",
+            description: "A school management system web application that helps manage and track the academic activities of students and teachers. It provides features such as student registration, attendance tracking, and grade management.",
+            technologies: "React, Material ui, Express.js,MongoDB",
+            link: "http://crystallandacademy.com/"
         }
     ],
 

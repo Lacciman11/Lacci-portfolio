@@ -77,6 +77,9 @@ function Skills() {
         <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
         <FaBootstrap  className="text-2xl" /> Bootstrap
         </span>
+        <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        <FaCss3Alt className="text-2xl" /> Material ui
+        </span>
       </div>
     </section>
   );

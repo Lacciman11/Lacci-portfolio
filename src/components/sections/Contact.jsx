@@ -10,6 +10,7 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    wNumber:"",
     message: "",
   });
   const [formStatus, setFormStatus] = useState({
@@ -34,6 +35,7 @@ function Contact() {
         {
           name: formData.name,
           email: formData.email,
+          wNumber: formData.wNumber,
           message: formData.message,
         },
         {
@@ -49,7 +51,7 @@ function Contact() {
           success: "Message sent successfully!",
           error: null,
         });
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "",wNumber:"", message: "" });
       }
     } catch (error) {
       setFormStatus({
@@ -115,6 +117,24 @@ function Contact() {
               required
               className="mt-1 block w-full px-3 py-2 border border-zinc-300 dark:border-zinc-600 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm dark:bg-zinc-800 dark:text-zinc-100"
               placeholder="your.email@example.com"
+            />
+          </div>
+          <div className="form-group mb-4">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-zinc-700 dark:text-zinc-300"
+            >
+              Whatsaap Number
+            </label>
+            <input
+              type="text"
+              id="wNumber"
+              name="wNumber"
+              value={formData.wNumber}
+              onChange={handleChange}
+              required
+              className="mt-1 block w-full px-3 py-2 border border-zinc-300 dark:border-zinc-600 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm dark:bg-zinc-800 dark:text-zinc-100"
+              placeholder="+234 ** *** *****"
             />
           </div>
           <div className="form-group mb-4">

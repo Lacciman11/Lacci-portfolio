@@ -13,8 +13,8 @@ const info = {
         twitter: "https://twitter.com/NwabekeyiFavour",
 		github: "https://github.com/Lacciman11",
 		linkedin: "https://www.linkedin.com/in/nwabekeyi-precious-50439a348/",
-		instagram: "https://www.instagram.com/favourlacci/",
-		facebook: "https://facebook.com/profile.php?id=100066890213482",
+		instagram: "https://www.instagram.com/nwabekeyifavoursomtochukwu/",
+		facebook: "https://web.facebook.com/profile.php?id=61578948916575",
     },
 
     // ============ PROJECTS ============

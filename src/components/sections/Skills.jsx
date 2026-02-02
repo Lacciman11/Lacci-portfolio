@@ -6,6 +6,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiSwagger, SiExpress, SiPostman, SiTailwindcss} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb"
 function Skills() {
   return (
     <section id="skills" className="mx-4 lg:mx-20">
@@ -49,9 +50,6 @@ function Skills() {
           <IoLogoFirebase className="text-2xl" /> Firebase
         </span>
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <SiSwagger className="text-2xl" /> Swagger
-        </span>
-				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <DiMongodb className="text-2xl" /> MongoDB
         </span>
         <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
@@ -62,6 +60,9 @@ function Skills() {
         </span>
         <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
         <FaCss3Alt className="text-2xl" /> Material ui
+        </span>
+        <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        <TbBrandNextjs className="text-2xl" /> Nextjs
         </span>
       </div>
     </section>

@@ -124,7 +124,7 @@ function Contact() {
               htmlFor="email"
               className="block text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
-              Whatsaap Number
+              WhatsApp Number
             </label>
             <input
               type="text"
